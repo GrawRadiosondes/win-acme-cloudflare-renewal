@@ -18,7 +18,7 @@ https://www.win-acme.com
 For "How would you like prove ownership for the domain(s)?" choose "[dns] Create verification records with your own script".
 
 # Setup
-1. create access token with dns edit permission for the zone
+1. create access token with dns edit permission for the zone (https://developers.cloudflare.com/fundamentals/api/get-started/create-token/)
 2. copy .env.example to .env
 3. copy .env to the location of wacs.exe
 4. set correct zone id and access token
